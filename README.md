@@ -20,14 +20,14 @@ Preprocessor is based on *Python*, to build a binary executable file, please fol
 $ cd cad20-tgls/Preprocess
 $ bash build.sh
 ```
-For more building details please refers to [`Preprocess/build.sh`](build.sh).
+For more building details please refers to [`Preprocess\build.sh`](Preprocess\build.sh).
 
 ### 1.3 Build Simulator
 ```bash
 $ cd cad20-tgls/Simulation
 $ make
 ```
-For more detail please refer to [`Simulation/makefile`](Simulation\makefile).
+For more detail please refer to [`Simulation\makefile`](Simulation\makefile).
 
 ## 2. How to Run
 **step 1**: Graph Preprocessing
