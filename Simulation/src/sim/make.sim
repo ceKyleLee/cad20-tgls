@@ -1,0 +1,10 @@
+PKGFLAG   =
+EXTHDRS   = Simulator.h
+
+include ../Makefile.in
+include ../Makefile.lib
+
+../../lib/%.o : %.cu
+	@$(ECHO) "> compiling: $<"
+	# $(CXX) $(CFLAGS) -I$(EXTINCDIR) -L../../lib -c -G -o $@ $<
+	$(CXX) $(CFLAGS) -I$(EXTINCDIR) -L../../lib -c -o $@ $<

@@ -1,0 +1,5 @@
+PKGFLAG   =
+EXTHDRS   = vcdParser.h interParser.h VCD.h FileReader.h getChar.h SAIF.h
+
+include ../Makefile.in
+include ../Makefile.lib

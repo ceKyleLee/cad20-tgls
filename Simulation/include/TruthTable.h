@@ -1,0 +1,1 @@
+../src/gate/TruthTable.h

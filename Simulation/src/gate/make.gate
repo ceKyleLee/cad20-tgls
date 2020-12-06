@@ -1,0 +1,5 @@
+PKGFLAG   =
+EXTHDRS   = DelayMgr.h Gate.h GateMgr.h TruthTable.h
+
+include ../Makefile.in
+include ../Makefile.lib
