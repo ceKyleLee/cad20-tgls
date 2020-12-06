@@ -20,14 +20,14 @@ Preprocessor is based on *Python*, to build a binary executable file, please fol
 $ cd cad20-tgls/Preprocess
 $ bash build.sh
 ```
-For more building details please refers to [`Preprocess\build.sh`](build.sh).
+For more building details please refers to [`Preprocess/build.sh`](build.sh).
 
 ### 1.3 Build Simulator
 ```bash
 $ cd cad20-tgls/Simulation
 $ make
 ```
-For more detail please refer to [`Simulation\makefile`](Simulation\makefile).
+For more detail please refer to [`Simulation/makefile`](Simulation\makefile).
 
 ## 2. How to Run
 **step 1**: Graph Preprocessing
@@ -102,6 +102,7 @@ design                                            | Elapsed Time (s) | Speedup t
 `NV_NVDLA_partition_m_dc_24x33x55_5x5x55x25_int8` | 14.1             | 8.03          |
 `NV_NVDLA_partition_m_rando`                      | 59.8             | 14.07         |
 `NV_NVDLA_partition_o_dc_24x33x55_5x5x55x25_int8` | 7.7              | 1.04          |
+
 ***Elapsed time** only consider the run time of *GPUsimulator*.
 
 
